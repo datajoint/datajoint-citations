@@ -1,16 +1,23 @@
 # datajoint-citations
-This repository contains BibTeX collections of papers about DataJoint or using DataJoint.
-- `citations_all.bib` collects all papers, including those that briefly mention DataJoint, or foundational papers on relational database infrastructire.
-- `citations_all.tex` categorizes these papers
-- `citations_used.bib` collects papers that either discuss DataJoint directly, or used DataJoint as part of their experiment.
-- `citations_used.tex` is used to generate the corresponding markdown file for publication on our website.
+This repository contains BibTeX collections of papers.
+- `citations_all.bib` collects all papers, including those that briefly mention DataJoint, or foundational papers on relational database infrastructure.
+- `citations_all.tex` categorizes these papers into...
+   - Neuroscience studies that use DataJoint
+   - Other studies that use DataJoint
+   - Publications describing DataJoint
+   - Data infrastructure papers involving DataJoint
+   - Other papers that make mention of DataJoint
+- `citations_used.bib` collects papers that used DataJoint as part of their study (i.e., top two categories above)
+- `citations_used.tex` is used to generate the corresponding markdown file for our website.
 - `apa.csl` contains specifications for APA citation formatting
 
 New papers that use DataJoint should be added to both `.bib` files.
 
+Future work on this repository should investigate tools to generate `citations_used.bib` based on mention in corresponding sections of `citations_all.tex`.
+
 # Usage
 
-To download dependencies:
+To download dependencies for OSX:
 ```bash
 brew install basictex pandoc
 tlmgr install fourier enumitem apacite
@@ -32,4 +39,12 @@ citations_used.tex -t gfm -o citations_used.md \
 --metadata title="Publications that Discuss or Use DataJoint"
 ```
 
-This markdown file then requires minor edits to turn the default table at the top into a header.
+This markdown file then requires minor edits to turn the default table at the top into a header:
+```
+---
+bibliography: citations_used.bib
+csl: apa.csl
+title: Publications using DataJoint
+---
+```
+becomes: `#Publications using DataJoint`

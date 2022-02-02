@@ -1,4 +1,4 @@
-# Publications that Discuss or Use DataJoint
+# Publications using DataJoint
 
 <div id="refs" class="references csl-bib-body hanging-indent"
 line-spacing="2">
@@ -338,14 +338,6 @@ Neuroscience Methods*, *288*, 82–98.
 
 </div>
 
-<div id="ref-singer2019" class="csl-entry">
-
-Singer, E. (2019). *The data sharing problem in neuroscience*.
-<https://www.simonsfoundation.org/2019/10/04/the-data-sharing-problem-in-neuroscience>;
-Simons Foundation.
-
-</div>
-
 <div id="ref-sinz2020simultaneous" class="csl-entry">
 
 Sinz, F. H., Sachgau, C., Henninger, J., Benda, J., & Grewe, J. (2020).
@@ -456,30 +448,6 @@ correlations in neural circuits. *PLoS Comput Biol*, *11*(3), e1004083.
 Yatsenko, D., Moreaux, L. C., Choi, J., Tolias, A., Shepard, K. L., &
 Roukes, M. L. (2020). Signal separability in integrated neurophotonics.
 *bioRxiv*.
-
-</div>
-
-<div id="ref-yatsenko-2021-datajoint" class="csl-entry">
-
-Yatsenko, D., Nguyen, T., Shen, S., Gunalan, K., Turner, C. A., Guzman,
-R., Sasaki, M., Sitonic, D., Reimer, J., Walker, E. Y.others. (2021).
-DataJoint elements: Data workflows for neurophysiology. *bioRxiv*.
-
-</div>
-
-<div id="ref-yatsenko-2015-datajoint" class="csl-entry">
-
-Yatsenko, D., Reimer, J., Ecker, A. S., Walker, E. Y., Sinz, F., Berens,
-P., Hoenselaar, A., Cotton, R. J., Siapas, A. S., & Tolias, A. S.
-(2015). DataJoint: Managing big scientific data using MATLAB or Python.
-*bioRxiv*, 031658. <https://doi.org/10.1101/031658>
-
-</div>
-
-<div id="ref-yatsenko-2018-datajoint" class="csl-entry">
-
-Yatsenko, D., Walker, E. Y., & Tolias, A. S. (2018). DataJoint: A
-simpler relational data model. *arXiv Preprint arXiv:1807.11104*.
 
 </div>
 
