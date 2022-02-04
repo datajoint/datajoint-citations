@@ -36,7 +36,7 @@ To generate a markdown file:
 ```bash
 pandoc -s --bibliography citations_used.bib --citeproc --csl=apa.csl \
 citations_used.tex -t gfm -o citations_used.md \
---metadata title="Publications that Discuss or Use DataJoint"
+--metadata title="Publications that use DataJoint"
 ```
 
 This markdown file then requires minor edits to turn the default table at the top into a header:
